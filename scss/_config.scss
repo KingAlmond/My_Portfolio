@@ -1,7 +1,7 @@
 /* Variables called in main.scss*/
 
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: blue;
+$secondary-color: #030300;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -29,5 +29,33 @@ $background-opacity: 0.9;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+//Media query mixins
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+//medium
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+//large
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+//extra large
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
   }
 }
