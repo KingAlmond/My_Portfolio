@@ -57,10 +57,11 @@ main {
 
     a {
       padding: 0.4rem;
+      @include easeOut; //test
 
       &:hover {
         color: $secondary-color;
-        @include easeOut();
+        //@include easeOut();
       }
     }
   }
