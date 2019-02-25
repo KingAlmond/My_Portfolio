@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "My Portfolio Website",
   "main": "index.js",
+  "homepage": "https://KingAlmond.github.io/My_Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Akash Desai",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
