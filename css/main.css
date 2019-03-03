@@ -226,7 +226,7 @@ main {
   float: right;
   color: #030303;
   font-family: sans-serif;
-  padding: 0; }
+  padding: 2; }
 
 .skills li {
   margin: 20px 0; }
@@ -247,19 +247,19 @@ main {
 
 .ue4 {
   width: 80%;
-  animation: ue4 2s; }
+  animation: ue4 3.5s; }
 
 .python {
   width: 65%;
-  animation: python 2s; }
+  animation: python 2.5s; }
 
 .html {
   width: 90%;
-  animation: html 2s; }
+  animation: html 4s; }
 
 .javascript {
-  width: 50%;
-  animation: javascript 2s; }
+  width: 55%;
+  animation: javascript 2.2s; }
 
 .java {
   width: 40%;
@@ -271,7 +271,7 @@ main {
 
 .sqf {
   width: 100%;
-  animation: sqf 4s; }
+  animation: sqf 5s; }
 
 @keyframes ue4 {
   0% {
@@ -295,7 +295,7 @@ main {
   0% {
     width: 0%; }
   100% {
-    width: 50%; } }
+    width: 55%; } }
 
 @keyframes java {
   0% {
