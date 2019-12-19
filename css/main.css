@@ -98,7 +98,7 @@
   transform: translate3d(0, 0, 0);
 }
 
-.menu .nav-item.current>a {
+.menu .nav-item.current > a {
   color: white;
 }
 
@@ -230,7 +230,8 @@ main#home h1 {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio"
+  grid-template-areas:
+    "bioimage bio bio"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
@@ -339,7 +340,6 @@ main#home h1 {
   float: left;
   background: #2187e7;
 }
-
 
 .boxes {
   display: flex;
@@ -454,7 +454,8 @@ main#home h1 {
   }
 
   .about-info {
-    grid-template-areas: "bioimage"
+    grid-template-areas:
+      "bioimage"
       "bio"
       "job1"
       "job2"
